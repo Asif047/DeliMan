@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deliman_poc.rokomari.deliman_rokomari_poc.PostActivity">
+
+
+
+    <EditText
+        android:id="@+id/edittext_orderId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Order Id"
+        android:gravity="center"
+        android:inputType="number"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edittext_recipient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Recipient name"
+
+        android:gravity="center"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edittext_orderType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Order Type"
+
+        android:gravity="center"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edittext_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Area"
+
+        android:gravity="center"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/edittext_district"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter District"
+
+        android:gravity="center"
+
+
+        />
+
+    <Button
+        android:id="@+id/button_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Post"
+
+        />
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="10dp"
+       >
+
+       <TextView
+           android:layout_width="100dp"
+           android:text="Message: "
+           android:textSize="20dp"
+           android:textColor="#0b0b0b"
+           android:layout_height="wrap_content" />
+
+
+       <TextView
+           android:id="@+id/textview_message"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:textSize="20dp"
+           android:textColor="#0b0b0b"
+            />
+
+   </LinearLayout>
+
+</LinearLayout>
